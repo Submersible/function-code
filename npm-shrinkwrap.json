@@ -1,0 +1,11 @@
+{
+  "name": "function-code",
+  "version": "1.0.0",
+  "dependencies": {
+    "dedent": {
+      "version": "0.4.0",
+      "from": "dedent@*",
+      "resolved": "https://registry.npmjs.org/dedent/-/dedent-0.4.0.tgz"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "function-code",
+  "version": "1.0.0",
+  "description": "Turn functions into strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Submersible/node-function-code.git"
+  },
+  "keywords": [
+    "function",
+    "inline",
+    "serialize",
+    "remote"
+  ],
+  "author": "Ryan Munro <ryan@submersible.io>",
+  "license": "MIT",
+  "dependencies": {
+    "dedent": "^0.4.0"
+  },
+  "devDependencies": {
+    "tap": "^1.3.2"
+  }
+}
