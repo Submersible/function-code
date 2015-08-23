@@ -1,3 +1,7 @@
+/*jslint node: true, nomen: true, vars: true */
+
+'use strict';
+
 var dedent = require('dedent');
 
 function code(fn) {
@@ -7,7 +11,7 @@ function code(fn) {
 
 Function.prototype.toCode = function () {
     return code.apply(null, [this].concat(Array.prototype.slice.call(arguments, 0)));
-}
+};
 
 function inline(fn) {
     var code = fn.toString();

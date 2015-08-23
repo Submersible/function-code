@@ -1,6 +1,5 @@
 # function-code [![Build Status](https://secure.travis-ci.org/Submersible/node-function-code.png?branch=master)](http://travis-ci.org/Submersible/node-function-code)
 
-
 Turn functions into strings
 
 ```
